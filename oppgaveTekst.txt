@@ -30,3 +30,4 @@ Basert på hva du har skrevet i, inputfeltene.
 F 
 Lag nå en funksjon som bruker parametere for å endre fargen på teksten. 
 Den tar inn hvilket element den skal endre og hvilket input verdi den skal bruke som parameter.
+(Vær så snill å ta kontakt med meg om det er noe du lurer på i oppgave F)
