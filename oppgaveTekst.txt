@@ -1,0 +1,32 @@
+A 
+- Lag en nettside som har to knapper: 
+En knapp skal ha teksten "Endre farge på tekst" 
+Andre skal ha teksten "Endre farge på alle tekster". 
+
+- I tillegg skal det være 3 individuelle tekster under knappene som heter 
+"FørsteTekst",
+"AndreTekst", 
+"TredjeTekst".
+
+B 
+Med CSS få de 3 tekstene til å være på 1 rad
+
+C 
+Gjør at når du trykker på "Endre farge på tekst" knappen så endrer "Førstetekst" seg til rød(Red)
+
+D 
+Implementer nå funksjonalitet til den andre knappen “Endre farge på alle tekster”, 
+den skal gjøre 
+"FørsteTekst": Rød, 
+"AndreTekst": Blå, 
+"TredjeTekst": Lilla.
+
+E 
+Lag 3 Labels, 3 Inputs og 3 Knapper. 
+Deretter gjør sånn at knappene endrer farge på "FørsteTekst", "AndreTekst", "TredjeTekst" 
+Basert på hva du har skrevet i, inputfeltene.
+(Se Bilde1E)
+
+F 
+Lag nå en funksjon som bruker parametere for å endre fargen på teksten. 
+Den tar inn hvilket element den skal endre og hvilket input verdi den skal bruke som parameter.

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextAndButtons</title>
+</head>
+<body>
+
+    <button onclick="changeColor()">Endre farge på tekst</button>
+    <button onclick="changeAllColors()">Endre farge på alle tekster</button>
+    <div style="display:flex; flex-direction: row;">
+        <p id="firstText">FørsteTekst</p>
+        <p id="secondText">&nbsp;AndreTekst</p>
+        <p id="thirdText">&nbsp;TredjeTekst</p>
+    </div>
+
+    <div>
+        <label>Farge for første tekst</label>
+        <input type="text" id="inputFirstText">
+        <button onclick="changeColorWInputValue()">Endre farge for første tekst</button>
+        <label>Farge for andre tekst</label>
+        <input type="text" id="inputSecondText">
+        <button onclick="changeColorWInputValue2()">Endre farge for andre tekst</button>
+        <label>Farge for tredje tekst</label>
+        <input type="text" id="inputThirdText">
+        <button onclick="changeColorWInputValue3()">Endre farge for tredje tekst</button>
+    </div>
+    
+
+    <script>
+
+        function changeColor(){
+            document.getElementById("firstText").style.color = "Red";
+        }
+
+        function changeAllColors(){
+            document.getElementById("firstText").style.color = "Red";
+            document.getElementById("secondText").style.color = "Blue";
+            document.getElementById("thirdText").style.color = "Purple";
+        }
+
+        function changeColorOfFirstTextWInputValue(){
+            document.getElementById("firstText").style.color = document.getElementById("inputFirstText").value;
+        }
+        function changeColorOfSecondTextWInputValue(){
+            document.getElementById("secondText").style.color = document.getElementById("inputSecondText").value;
+        }
+        function changeColorOfFirstTextWInputValue(){
+            document.getElementById("thirdText").style.color = document.getElementById("inputThirdText").value;
+        }
+
+        //TIPS/EKSEMPEL FUNKSJON MED PARAMETER
+        /* function changeColor(color){
+            document.getElementById("firstText").style.color = color 
+        }
+            <button onclick="changeColor('Red')"></button>
+        */ 
+
+
+    </script>
+    
+</body>
+</html>
